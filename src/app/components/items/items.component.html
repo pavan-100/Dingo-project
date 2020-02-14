@@ -1,0 +1,28 @@
+<section fxLayoutAlign="center">
+    <div>
+        <div>
+            <div align="center">
+                <h1>Our Execlusive Items</h1>
+            </div>
+            <div class="cards">
+
+                <div fxLayout="row wrap" fxLayoutAlign="center center">
+
+                    <ng-container *ngFor="let item of content">
+
+                        <div fxFlex.xl="30" fxFlex.lg="30" fxFlex.md="30" fxFlex.sm="85" fxFlex.xs="85">
+                            <div class="card">
+                                <img src="{{ item.img }}" alt="img-part" class="news-img" />
+                                <div class="card-body">
+                                    <h4>{{ item.header }}</h4>
+                                    <p>{{ item.para }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </ng-container>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
