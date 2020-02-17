@@ -14,10 +14,18 @@ img {
   background-color: white;
   box-shadow: 0px 5px 5px 5px rgba(200, 200, 200, 0.5);
 }
+h1 {
+  font-size: 40px;
+  color: #2c3033;
+  font-weight: 700;
+  position: relative;
+  left: 80px;
+}
 .card h4 {
   color: #2c3033;
   font-weight: 500;
-  margin-bottom: 20px;
+  font-size: large;
+  margin-bottom: 23px;
 }
 .card p {
   margin-bottom: 20px;
@@ -25,4 +33,11 @@ img {
 }
 .card-body {
   margin: 10px;
+}
+button:hover {
+  color: #fd7e14;
+}
+button {
+  border: none;
+  background: none;
 }

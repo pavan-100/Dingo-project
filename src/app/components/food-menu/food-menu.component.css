@@ -1,0 +1,44 @@
+.card {
+  box-shadow: 0px 5px 5px 5px rgba(200, 200, 200, 0.5);
+  margin: 12px;
+  height: auto;
+  max-width: 300px;
+  background-color: white;
+}
+.card p {
+  font-family: "Lora", serif;
+  line-height: 1.7;
+  font-size: 15px;
+  margin: 20px;
+  color: #555555;
+}
+.img-cnt img {
+  max-height: 152px;
+  width: auto;
+  border-radius: 5px;
+}
+h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #212529;
+  margin: 20px;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ff6426;
+  margin: 20px;
+}
+.head-cnt {
+  position: relative;
+  left: 160px;
+}
+.head-cnt p {
+  margin: 30px;
+  color: #555555;
+}
+.head-sec {
+  margin-top: 60px;
+  background-color: #f6f5f1;
+}

@@ -1,0 +1,24 @@
+<section class="head-sec">
+
+    <div class="head-cnt">
+        <p>Popular Menu</p>
+        <h1>Delicious Food Menu</h1>
+    </div>
+
+
+    <div fxLayout="row wrap" fxLayoutAlign="center center">
+        <ng-container *ngFor="let item of content">
+            <div fxLayout="row" fxLayoutAlign="center center">
+                <div class="img-cnt">
+                    <img src="{{ item.img }}" alt="img-part">
+                </div>
+                <div class="card">
+                    <h3>{{ item.head}}</h3>
+                    <p>{{item.pera}}</p>
+                    <h4>{{item.cost}}</h4>
+                </div>
+            </div>
+        </ng-container>
+
+    </div>
+</section>
