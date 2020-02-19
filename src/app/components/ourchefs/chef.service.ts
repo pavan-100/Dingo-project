@@ -8,18 +8,18 @@ export class ChefService {
   getContent() {
     return [
       {
-        img: "../../../assets/food_item/food_item_1.png",
+        img: "../../../assets/team/chefs_1.png",
         head: "Adam Billiard",
         pera: "Chef Master"
       },
       {
-        img: "../../../assets/food_item/food_item_1.png",
-        head: "Adam Billiard",
+        img: "../../../assets/team/chefs_2.png",
+        head: "Fred Macyard",
         pera: "Chef Master"
       },
       {
-        img: "../../../assets/food_item/food_item_1.png",
-        head: "Adam Billiard",
+        img: "../../../assets/team/chefs_3.png",
+        head: "Justin Stuard",
         pera: "Chef Master"
       }
     ];

@@ -27,7 +27,8 @@ import {
   MatSlideToggleModule,
   MatPaginatorModule,
   MatNativeDateModule,
-  MatDividerModule
+  MatDividerModule,
+  MatDatepicker
 } from "@angular/material";
 
 @NgModule({
@@ -46,6 +47,7 @@ import {
     MatSliderModule,
     MatRadioModule,
     MatListModule,
+    MatDatepicker,
     MatProgressSpinnerModule,
     MatProgressBarModule,
     MatChipsModule,
@@ -76,6 +78,7 @@ import {
     MatSliderModule,
     MatRadioModule,
     MatListModule,
+    MatDatepicker,
     MatProgressSpinnerModule,
     MatProgressBarModule,
     MatChipsModule,
